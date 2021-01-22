@@ -3,13 +3,11 @@ My beginner iOS project, featuring Login screen with animations and responsivene
 
 ### Result :
 
-![login res](./01.png)
-
 ![login res](./02.png)
 
-![login res](./03.png)
+![login res](./01.png)
 
-![login res](./04.png)
+![login res](./03.png)
 
 
 ### Recreation of following functionality:
