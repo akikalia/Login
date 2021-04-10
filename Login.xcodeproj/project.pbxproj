@@ -7,23 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F2178C7258437A70071E101 /* BaseReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2178C6258437A70071E101 /* BaseReusableView.swift */; };
+		1F21793825843DF30071E101 /* BackspaceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21793325843DF20071E101 /* BackspaceButtonView.swift */; };
+		1F21793925843DF30071E101 /* DialButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21793125843DF10071E101 /* DialButtonView.swift */; };
+		1F21793A25843DF30071E101 /* CallButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21793625843DF20071E101 /* CallButtonView.swift */; };
+		1F21793B25843DF30071E101 /* DialPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F21792E25843DF10071E101 /* DialPadView.swift */; };
+		1F297135258690E200B2A278 /* DialPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F29712F258690E200B2A278 /* DialPad.storyboard */; };
+		1F297136258690E200B2A278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F297131258690E200B2A278 /* LaunchScreen.storyboard */; };
+		1F297137258690E200B2A278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F297133258690E200B2A278 /* Main.storyboard */; };
+		1F29713B2586938C00B2A278 /* TransparentNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29713A2586938C00B2A278 /* TransparentNavigationController.swift */; };
+		1F29713E258693D000B2A278 /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F29713D258693D000B2A278 /* CallViewController.swift */; };
+		1F2971412586947500B2A278 /* DialPadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F2971402586947500B2A278 /* DialPadViewController.swift */; };
+		1F2971432586A0EA00B2A278 /* DialButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F21793025843DF10071E101 /* DialButtonView.xib */; };
+		1F2971452586A0F700B2A278 /* DialPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F21792D25843DF10071E101 /* DialPadView.xib */; };
+		1F2971472586A10000B2A278 /* BackspaceButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F21793425843DF20071E101 /* BackspaceButtonView.xib */; };
+		1F2971492586A10500B2A278 /* CallButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F21793725843DF30071E101 /* CallButtonView.xib */; };
 		1FBC0E50258289150074828E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E4F258289150074828E /* AppDelegate.swift */; };
 		1FBC0E52258289150074828E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E51258289150074828E /* SceneDelegate.swift */; };
 		1FBC0E54258289150074828E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E53258289150074828E /* ViewController.swift */; };
-		1FBC0E57258289150074828E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E55258289150074828E /* Main.storyboard */; };
 		1FBC0E59258289190074828E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E58258289190074828E /* Assets.xcassets */; };
-		1FBC0E5C258289190074828E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E5A258289190074828E /* LaunchScreen.storyboard */; };
+		1FBC0E67258289880074828E /* AuthBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E66258289880074828E /* AuthBarView.swift */; };
+		1FBC0E6A2582899E0074828E /* AuthBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E692582899E0074828E /* AuthBarView.xib */; };
+		1FBC0E7425828D140074828E /* InputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E7225828D140074828E /* InputView.xib */; };
+		1FBC0E7525828D140074828E /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E7325828D140074828E /* InputView.swift */; };
+		1FBC0E922582C1D30074828E /* SubmitButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBC0E902582C1D20074828E /* SubmitButtonView.swift */; };
+		1FBC0E932582C1D30074828E /* SubmitButtonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FBC0E912582C1D20074828E /* SubmitButtonView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F2178C6258437A70071E101 /* BaseReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseReusableView.swift; sourceTree = "<group>"; };
+		1F21792D25843DF10071E101 /* DialPadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialPadView.xib; sourceTree = "<group>"; };
+		1F21792E25843DF10071E101 /* DialPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPadView.swift; sourceTree = "<group>"; };
+		1F21793025843DF10071E101 /* DialButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DialButtonView.xib; sourceTree = "<group>"; };
+		1F21793125843DF10071E101 /* DialButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialButtonView.swift; sourceTree = "<group>"; };
+		1F21793325843DF20071E101 /* BackspaceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackspaceButtonView.swift; sourceTree = "<group>"; };
+		1F21793425843DF20071E101 /* BackspaceButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BackspaceButtonView.xib; sourceTree = "<group>"; };
+		1F21793625843DF20071E101 /* CallButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallButtonView.swift; sourceTree = "<group>"; };
+		1F21793725843DF30071E101 /* CallButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CallButtonView.xib; sourceTree = "<group>"; };
+		1F297130258690E200B2A278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/DialPad.storyboard; sourceTree = "<group>"; };
+		1F297132258690E200B2A278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F297134258690E200B2A278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F29713A2586938C00B2A278 /* TransparentNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransparentNavigationController.swift; sourceTree = "<group>"; };
+		1F29713D258693D000B2A278 /* CallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
+		1F2971402586947500B2A278 /* DialPadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialPadViewController.swift; sourceTree = "<group>"; };
 		1FBC0E4C258289150074828E /* Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Login.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FBC0E4F258289150074828E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FBC0E51258289150074828E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1FBC0E53258289150074828E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1FBC0E56258289150074828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1FBC0E58258289190074828E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1FBC0E5B258289190074828E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FBC0E5D258289190074828E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FBC0E66258289880074828E /* AuthBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthBarView.swift; sourceTree = "<group>"; };
+		1FBC0E692582899E0074828E /* AuthBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AuthBarView.xib; sourceTree = "<group>"; };
+		1FBC0E7225828D140074828E /* InputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InputView.xib; sourceTree = "<group>"; };
+		1FBC0E7325828D140074828E /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		1FBC0E902582C1D20074828E /* SubmitButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubmitButtonView.swift; sourceTree = "<group>"; };
+		1FBC0E912582C1D20074828E /* SubmitButtonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubmitButtonView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +75,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F21792A25843DF00071E101 /* DialPadView */ = {
+			isa = PBXGroup;
+			children = (
+				1F21792C25843DF00071E101 /* DialPadView */,
+				1F21792F25843DF10071E101 /* DialButtonView */,
+				1F21793225843DF10071E101 /* BackspaceButtonView */,
+				1F21793525843DF20071E101 /* CallButtonView */,
+			);
+			path = DialPadView;
+			sourceTree = "<group>";
+		};
+		1F21792C25843DF00071E101 /* DialPadView */ = {
+			isa = PBXGroup;
+			children = (
+				1F21792E25843DF10071E101 /* DialPadView.swift */,
+				1F21792D25843DF10071E101 /* DialPadView.xib */,
+			);
+			path = DialPadView;
+			sourceTree = "<group>";
+		};
+		1F21792F25843DF10071E101 /* DialButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F21793025843DF10071E101 /* DialButtonView.xib */,
+				1F21793125843DF10071E101 /* DialButtonView.swift */,
+			);
+			path = DialButtonView;
+			sourceTree = "<group>";
+		};
+		1F21793225843DF10071E101 /* BackspaceButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F21793325843DF20071E101 /* BackspaceButtonView.swift */,
+				1F21793425843DF20071E101 /* BackspaceButtonView.xib */,
+			);
+			path = BackspaceButtonView;
+			sourceTree = "<group>";
+		};
+		1F21793525843DF20071E101 /* CallButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1F21793725843DF30071E101 /* CallButtonView.xib */,
+				1F21793625843DF20071E101 /* CallButtonView.swift */,
+			);
+			path = CallButtonView;
+			sourceTree = "<group>";
+		};
+		1F2971392586938C00B2A278 /* NavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F29713A2586938C00B2A278 /* TransparentNavigationController.swift */,
+			);
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
 		1FBC0E43258289150074828E = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +149,75 @@
 		1FBC0E4E258289150074828E /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				1F2971392586938C00B2A278 /* NavigationControllers */,
+				1F29712F258690E200B2A278 /* DialPad.storyboard */,
+				1F297131258690E200B2A278 /* LaunchScreen.storyboard */,
+				1F297133258690E200B2A278 /* Main.storyboard */,
+				1FBC0E8125828F8C0074828E /* ViewControllers */,
+				1FBC0E65258289570074828E /* Views */,
 				1FBC0E4F258289150074828E /* AppDelegate.swift */,
 				1FBC0E51258289150074828E /* SceneDelegate.swift */,
-				1FBC0E53258289150074828E /* ViewController.swift */,
-				1FBC0E55258289150074828E /* Main.storyboard */,
 				1FBC0E58258289190074828E /* Assets.xcassets */,
-				1FBC0E5A258289190074828E /* LaunchScreen.storyboard */,
 				1FBC0E5D258289190074828E /* Info.plist */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		1FBC0E64258289260074828E /* AuthBarView */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC0E8A2582BF830074828E /* SubmitButtonView */,
+				1FBC0E7025828B650074828E /* AuthBarView */,
+				1FBC0E6F25828B500074828E /* InputView */,
+			);
+			path = AuthBarView;
+			sourceTree = "<group>";
+		};
+		1FBC0E65258289570074828E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1F21792A25843DF00071E101 /* DialPadView */,
+				1F2178C6258437A70071E101 /* BaseReusableView.swift */,
+				1FBC0E64258289260074828E /* AuthBarView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1FBC0E6F25828B500074828E /* InputView */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC0E7325828D140074828E /* InputView.swift */,
+				1FBC0E7225828D140074828E /* InputView.xib */,
+			);
+			path = InputView;
+			sourceTree = "<group>";
+		};
+		1FBC0E7025828B650074828E /* AuthBarView */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC0E66258289880074828E /* AuthBarView.swift */,
+				1FBC0E692582899E0074828E /* AuthBarView.xib */,
+			);
+			path = AuthBarView;
+			sourceTree = "<group>";
+		};
+		1FBC0E8125828F8C0074828E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F2971402586947500B2A278 /* DialPadViewController.swift */,
+				1F29713D258693D000B2A278 /* CallViewController.swift */,
+				1FBC0E53258289150074828E /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1FBC0E8A2582BF830074828E /* SubmitButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				1FBC0E902582C1D20074828E /* SubmitButtonView.swift */,
+				1FBC0E912582C1D20074828E /* SubmitButtonView.xib */,
+			);
+			path = SubmitButtonView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,9 +277,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1FBC0E5C258289190074828E /* LaunchScreen.storyboard in Resources */,
+				1F2971452586A0F700B2A278 /* DialPadView.xib in Resources */,
+				1F2971492586A10500B2A278 /* CallButtonView.xib in Resources */,
+				1F297137258690E200B2A278 /* Main.storyboard in Resources */,
+				1FBC0E932582C1D30074828E /* SubmitButtonView.xib in Resources */,
+				1FBC0E7425828D140074828E /* InputView.xib in Resources */,
+				1F297135258690E200B2A278 /* DialPad.storyboard in Resources */,
+				1F2971432586A0EA00B2A278 /* DialButtonView.xib in Resources */,
+				1F2971472586A10000B2A278 /* BackspaceButtonView.xib in Resources */,
+				1F297136258690E200B2A278 /* LaunchScreen.storyboard in Resources */,
 				1FBC0E59258289190074828E /* Assets.xcassets in Resources */,
-				1FBC0E57258289150074828E /* Main.storyboard in Resources */,
+				1FBC0E6A2582899E0074828E /* AuthBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,29 +298,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F21793925843DF30071E101 /* DialButtonView.swift in Sources */,
 				1FBC0E54258289150074828E /* ViewController.swift in Sources */,
+				1FBC0E67258289880074828E /* AuthBarView.swift in Sources */,
 				1FBC0E50258289150074828E /* AppDelegate.swift in Sources */,
+				1F21793A25843DF30071E101 /* CallButtonView.swift in Sources */,
+				1FBC0E922582C1D30074828E /* SubmitButtonView.swift in Sources */,
 				1FBC0E52258289150074828E /* SceneDelegate.swift in Sources */,
+				1F21793B25843DF30071E101 /* DialPadView.swift in Sources */,
+				1F2971412586947500B2A278 /* DialPadViewController.swift in Sources */,
+				1FBC0E7525828D140074828E /* InputView.swift in Sources */,
+				1F21793825843DF30071E101 /* BackspaceButtonView.swift in Sources */,
+				1F29713E258693D000B2A278 /* CallViewController.swift in Sources */,
+				1F29713B2586938C00B2A278 /* TransparentNavigationController.swift in Sources */,
+				1F2178C7258437A70071E101 /* BaseReusableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1FBC0E55258289150074828E /* Main.storyboard */ = {
+		1F29712F258690E200B2A278 /* DialPad.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FBC0E56258289150074828E /* Base */,
+				1F297130258690E200B2A278 /* Base */,
 			);
-			name = Main.storyboard;
+			name = DialPad.storyboard;
 			sourceTree = "<group>";
 		};
-		1FBC0E5A258289190074828E /* LaunchScreen.storyboard */ = {
+		1F297131258690E200B2A278 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1FBC0E5B258289190074828E /* Base */,
+				1F297132258690E200B2A278 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F297133258690E200B2A278 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F297134258690E200B2A278 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,7 +472,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = freeuni.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -310,7 +490,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = freeuni.Login;
+				PRODUCT_BUNDLE_IDENTIFIER = Login;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
